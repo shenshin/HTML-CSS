@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sky {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.body {
+    width: 40%;
+    height: 70%;
+    background-color: black;
+    border-radius: 6rem 6rem 0 0;
+    position: relative;
+}
+
+.eye {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    border-radius: 3rem;
+}
+
+.beak {
+    width: 0;
+    height: 0;
+    border-left: 8rem solid yellow;
+    border-bottom: 7rem solid transparent;
+    border-top: 7rem solid transparent;
+    position: absolute;
+    right: -35.5%;
+    top: 30%;
+}
