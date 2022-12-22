@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sky {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.body {
+    width: 40%;
+    height: 70%;
+    position: relative;
+    z-index: 1;
+}
+
+.anatomy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 98;
+    left: 0;
+    top: 0;
+    border-radius: 6rem 6rem 0 0;
+}
+
+.eye {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    border-radius: 3rem;
+    z-index: 100;
+}
+
+.beak {
+    width: 10rem;
+    height: 10rem;
+    background-color: yellow;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 97;
+    right: -15%;
+    top: 30%;
+}
